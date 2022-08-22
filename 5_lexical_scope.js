@@ -6,7 +6,7 @@ function functionOfFunctions() {
     childFunction()
     function childFunction() {
         const localVariable = "local variable"
-        console.log(`I have access to the ${localVariable} and the ${parentScopeVariable} and the ${globalScopeVariable}`)
+        console.log(`I have access to the \n${localVariable} \nand the ${parentScopeVariable} \nand the ${globalScopeVariable}`)
     }
 }
 
