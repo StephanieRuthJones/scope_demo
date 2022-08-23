@@ -8,3 +8,4 @@ if (true) {
 
 console.log("x outside block", x)
 // console.log("y outside block", y)
+
