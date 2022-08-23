@@ -1,4 +1,3 @@
-//LEXICAL SCOPE - scope determined at compile time
 //CLOSURE - ability to reference a variable in an enclosing scope
 const globalScopeVariable = "global scope variable"
 function functionOfFunctions() {
