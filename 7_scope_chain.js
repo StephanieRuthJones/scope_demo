@@ -1,6 +1,6 @@
 //SCOPE CHAIN - engine moves from innermost to outermost scope to find the variable
 
-let firstNum = 1
+let firstNum = 1 
 
 function printNumbers() {
     let secondNum = 2

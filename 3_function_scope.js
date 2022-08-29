@@ -2,10 +2,8 @@
 
 function favCodingLanguage() {
     var favLanguage = "JavaScript"
-    console.log("favLanguage inside function", favLanguage)
 }
 
-console.log("favLanguage outside function", favLanguage)
 
 // function favCodingFramework() {
 //     let favCodingFramework = "React"

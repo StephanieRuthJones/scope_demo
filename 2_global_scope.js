@@ -1,8 +1,6 @@
 
 //GLOBAL SCOPE
-let dogName = "Ted"
-
-console.log("dogName in global scope", dogName)
+const dogName = "Ted"
 
 // function sayTed() {
 //     console.log("dogName logged inside function", dogName)

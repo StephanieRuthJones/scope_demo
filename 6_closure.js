@@ -2,11 +2,13 @@
 const globalScopeVariable = "global scope variable"
 function functionOfFunctions() {
     let parentScopeVariable = "parent scope variable"
-    childFunction()
-    function childFunction() {
+    
+    return function () {
         const localVariable = "local variable"
         console.log(`I have access to the \n${localVariable} \nand the ${parentScopeVariable} \nand the ${globalScopeVariable}`)
     }
+    
 }
 
-functionOfFunctions()
+const childFunction = functionOfFunctions()
+childFunction()
